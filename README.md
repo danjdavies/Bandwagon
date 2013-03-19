@@ -1,8 +1,6 @@
 Bandwagon
 =========
 
-Bandwagon boilerplate
-
 Hello everyone!
 
 This is my first project on GitHub so play nice.
