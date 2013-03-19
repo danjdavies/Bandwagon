@@ -448,7 +448,7 @@
 		}
 	}
 	
-	@media only screen and (min-width: 780px) 
+	@media only screen and (min-width: 768px) 
 	{	
 	/*
 		Menu
@@ -506,9 +506,9 @@
 			
 		.three
 		{
-			width: 30%;
+			width: 32.2%;
 			float: left;
-			margin-left: 5%;
+			margin-left: 1.6%;
 		}
 		
 		.three:first-child
@@ -525,15 +525,26 @@
 		
 		.four
 		{
-			width: 45%;
+			width: 49.2%;
 			float: left;
-			margin-left: 5%;
+			margin-left: 1.6%;
 		}
 		
 		.four:first-child,
 		.four:nth-of-type(3)
 		{
 			margin-left: 0;
+		}
+		
+		.four:nth-of-type(odd)
+		{
+			float: left;
+			clear: both;
+		}
+		
+		.four:nth-of-type(even)
+		{
+			float: right;
 		}
 		
 		/* Combined */
@@ -545,7 +556,7 @@
 		}*/
 	}
 	
-	@media only screen and (min-width: 930px) 
+	@media only screen and (min-width: 960px) 
 	{
 		/*
 		Forms
@@ -619,8 +630,7 @@
 			
 		.three
 		{
-			width: 30%;
-			margin-left: 5%;
+			margin-left: 1.6%;
 		}
 		
 		.three:first-child
@@ -632,8 +642,19 @@
 		
 		.four
 		{
-			width: 20%;
-			margin-left: 5%;
+			width: 23.8%;
+			margin-left: 1.6%;
+		}
+		
+		.four:nth-of-type(even)
+		{
+			float: left;
+		}
+		
+		.four:nth-of-type(3)
+		{
+			clear: none;
+			margin-left: 1.6%;
 		}
 		
 		/* Combined */
