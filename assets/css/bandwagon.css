@@ -108,6 +108,7 @@
 	h2
 	{
 		font-size: 2.5em;
+		line-height: 1em;
 	}
 
 	h3
@@ -168,22 +169,24 @@
 	Links / Buttons
 	----------------------------------- */
 	
-	a
+	a,
+	a:visited
 	{
-		color: #333;
+		color: #3f3f3f;
 		text-decoration: none;
 		font-style: italic;
 		font-weight: 700;
 		display: inline-block;
 	}
 
+	a:focus,
 	a:hover
 	{
 		color: #000;
-		-webkit-transition:color 1s ease-in;
-		-moz-transition:color 1s ease-in;
-		-o-transition:color 1s ease-in;
-		transition:color 1s ease-in;
+		-webkit-transition:color 0.5s ease-in;
+		-moz-transition:color 0.5s ease-in;
+		-o-transition:color 0.5s ease-in;
+		transition:color 0.5s ease-in;
 	}
 	
 /*
@@ -198,7 +201,8 @@
 		font-family: "ff-meta-web-pro",sans-serif;
 	}
 
-	nav a
+	nav a,
+	nav a:visited
 	{
 		display: block;
 		padding: 2.5%;
@@ -206,10 +210,10 @@
 
 		text-align: center;
 		text-decoration: none;
-		font-weight: bold;
+		font-weight: 700;
 		font-style: normal;
 
-		color: #333;
+		color: #000;
 		background: #fff;
 		border-bottom: none;
 
@@ -220,16 +224,18 @@
 	}
 
 	nav a:hover,
-	nav a:visited
+	nav a:focus
 	{
-		color: #777;
+		color: #888;
 		background: none;
-	}
-
-	nav a:hover
-	{
 		text-decoration: none;
 	}
+	
+	.active
+	{
+		text-decoration: underline;
+	}
+
 
 /*
 	Menu (Main)
